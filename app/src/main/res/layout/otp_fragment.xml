@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_otp"
+    android:background="#292828"
+    android:gravity="center">
+
+    <in.aabhasjindal.otptextview.OtpTextView
+        android:id="@+id/otp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        app:height="40dp"
+        app:width="40dp"
+        app:bar_enabled="true"
+        app:bar_height="2dp"
+        app:length="4"
+        app:otp_text_size="24dp"/>
+
+
+</LinearLayout>

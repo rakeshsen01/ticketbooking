@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    android:id="@+id/linear"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtName"
+        android:background="@drawable/rectangle"
+        android:text=""
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_margin="5dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtDocumentId"
+        android:background="@drawable/rectangle"
+        android:text=""
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtSource"
+        android:background="@drawable/rectangle"
+        android:text=""
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtDestination"
+        android:background="@drawable/rectangle"
+        android:text=""
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtPrize"
+        android:background="@drawable/rectangle"
+        android:text=""
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:text="Generate Ticket" />
+
+</LinearLayout>

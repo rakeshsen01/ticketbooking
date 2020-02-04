@@ -1,0 +1,20 @@
+[
+  {
+    "stationID": 0,
+    "name": "Attiguppe Metro Station",
+    "latitude": 12.961957,
+    "longitude": 77.533582
+  },
+  {
+    "stationID": 1,
+    "name": "Baiyappanahalli Metro Station",
+    "latitude": 12.990748,
+    "longitude": 77.652456
+  },
+  {
+    "stationID": 2,
+    "name": "Central College Metro Station",
+    "latitude": 12.974104,
+    "longitude": 77.584017
+  }
+]

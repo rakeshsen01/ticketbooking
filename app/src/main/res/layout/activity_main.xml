@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/mainactiviy"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/fragment"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:text="User Account"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:text="User Name*"
+                android:padding="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_name" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:text="Date Of Birth*"
+                android:padding="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:focusable="false"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/et_dob"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:hint="hint_dob"
+                android:inputType="none"
+                android:focusable="false"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:text="Document Type*"
+                android:padding="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/sp_documentType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/documenttype"
+                android:prompt="@string/spinner_title" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:text="Document ID*"
+                android:padding="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/et_document_id"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Document ID"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:text="Mobile Number*"
+                android:padding="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/et_mobile_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Mobile Number"
+                android:inputType="phone"
+                android:singleLine="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:id="@+id/bt_Submit"
+                android:layout_margin="10dp"
+                android:background="#2196F3"
+                android:text="Submit" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:id="@+id/second_Screen"
+                android:background="#2196F3"
+                android:layout_margin="10dp"
+                android:enabled="false"
+                android:text="Second Screen" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
